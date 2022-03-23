@@ -19,7 +19,3 @@ Pretty the source code:
 ```shell
 npm run pretty
 ```
-
-## Todo
-
-- [ ] [husky](https://github.com/typicode/husky)
