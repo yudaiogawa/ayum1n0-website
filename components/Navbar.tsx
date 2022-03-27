@@ -14,6 +14,8 @@ import {
 } from '@chakra-ui/react'
 import { FcMenu } from 'react-icons/Fc'
 
+import ThemeSwitch from './ThemeSwitch'
+
 const LinkItem = ({ href, children }) => {
   const enable = true
   return (
@@ -47,6 +49,7 @@ const Navbar = () => {
         </Stack>
       </Container>
 
+      <ThemeSwitch />
       <Menu>
         <MenuButton>
           <FcMenu />
