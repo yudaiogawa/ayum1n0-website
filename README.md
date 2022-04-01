@@ -4,6 +4,7 @@
 
 - [Next.js](https://nextjs.org/) - The React Framework
 - [React](https://ja.reactjs.org/) - Javascript library for build UI.
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript with syntax for types.
 
 ## Command
 
