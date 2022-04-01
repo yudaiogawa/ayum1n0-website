@@ -6,7 +6,7 @@ const Logo = () => {
     <Link href="/">
       <a>
         <Text fontWeight="bold" ml={4}>
-          yudaiogawa
+          AYMN
         </Text>
       </a>
     </Link>
