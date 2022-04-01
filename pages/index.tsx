@@ -1,4 +1,5 @@
-import { Container, Box, Heading } from '@chakra-ui/react'
+import NextLink from 'next/link'
+import { Container, Box, Heading, Button } from '@chakra-ui/react'
 
 import Example from './Example'
 import Section from '../components/Section'
@@ -23,13 +24,23 @@ const Page = () => {
       </Box>
 
       <Section delay="0.2">
-        <Heading as="h4">FOO</Heading>
-        <p>foo ...</p>
+        <Heading as="h4">ASDF</Heading>
+        <p>FOO...</p>
+        <Box my={8}>
+          <NextLink href="https://github.com/yudaiogawa">
+            <Button colorScheme="telegram">GITHUB</Button>
+          </NextLink>
+        </Box>
       </Section>
 
       <Section delay="0.4">
-        <Heading as="h4">BAR</Heading>
-        <p>bar ...</p>
+        <Heading as="h4">ASDF</Heading>
+        <p>BAZ...</p>
+        <Box my={8}>
+          <NextLink href="https://www.youtube.com/channel/UCHT3a2bqmq6Vkufzoyeza7A">
+            <Button colorScheme="telegram">YOUTUBE</Button>
+          </NextLink>
+        </Box>
       </Section>
 
       <Example />
